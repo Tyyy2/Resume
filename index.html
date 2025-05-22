@@ -288,17 +288,38 @@
     </section>
 
     <section id="projects" class="projects">
-        <h2 class="section-title">專案經歷</h2>
+        <h2 class="section-title">經歷、作品</h2>
 
         <div class="project-filters">
             <button class="filter-btn active" data-filter="all">全部</button>
             <button class="filter-btn" data-filter="frontend">前端</button>
             <button class="filter-btn" data-filter="backend">後端</button>
-            <button class="filter-btn" data-filter="fullstack">全棧</button>
         </div>
 
         <div class="projects-grid">
-            <div class="project-card" data-category="frontend fullstack">
+            <div class="project-card" data-category="frontend backend">
+                <div class="project-image">
+                    <img src="./KTGHPD.jpg" alt="光田醫院腹膜透析居家照護系統">
+                    <div class="project-overlay">
+                        <a href="https://www.ithome.com.tw/pr/163279" target="_blank"
+                            class="project-link">相關報導</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>光田醫院腹膜透析居家照護系統</h3>
+                    <p>作為光田醫院團隊成員，參與NHQA國家醫療品質競賽，協助醫院獲得智慧醫院標章。此系統整合Webex Meeting與醫院APP，實現遠距視訊衛教、透析紀錄追蹤、即時問題處理等功能，大幅提升腹膜透析病患的居家照護品質。</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>C#</span>
+                        <span>.Net Core</span>
+                        <span>Webex</span>
+                        <span>Oracle</span>
+                        <span>IIS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="frontend">
                 <div class="project-image">
                     <img src="./cake.png" alt="菓洞甜點工作室">
                     <div class="project-overlay">
@@ -318,7 +339,7 @@
                 </div>
             </div>
 
-            <div class="project-card" data-category="frontend backend fullstack">
+            <div class="project-card" data-category="backend">
                 <div class="project-image">
                     <img src="./longfull.png" alt="榮輔環保公司">
                     <div class="project-overlay">
@@ -339,54 +360,39 @@
                 </div>
             </div>
 
-
-        </div>
-
-        <div class="projects-more">
-            <p>其他筆記：<a target="_blank" href="https://tyyy2.github.io/">筆記連結</a></p>
+            <div class="project-card" data-category="frontend">
+                <div class="project-image">
+                    <img src="./codeClimbing.png" alt="個人技術筆記">
+                    <div class="project-overlay">
+                        <a href="https://tyyy2.github.io/" target="_blank"
+                            class="project-link">訪問網站</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>個人技術筆記</h3>
+                    <p>使用 Hexo 框架建立的個人技術筆記網站，記錄學習過程中的技術心得與解決方案。包含前端、後端、DevOps 等相關技術文章，並使用 GitHub Pages 進行部署。</p>
+                    <div class="project-tech">
+                        <span>Hexo</span>
+                        <span>Markdown</span>
+                        <span>GitHub Pages</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
         <h2 class="section-title">與我聯繫</h2>
         <div class="contact-container">
-            <!-- <div class="contact-info">
+            <div class="contact-info">
                 <div class="contact-item">
                     <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                     <div class="contact-text">
                         <h3>電子郵件</h3>
-                        <p>uasdfggt890131@gmail.com</p>
+                        <p><a href="mailto:uasdfggt890131@gmail.com">uasdfggt890131@gmail.com</a></p>
                     </div>
                 </div>
-                <div class="contact-item">
-                    <div class="contact-icon"><i class="fas fa-globe"></i></div>
-                    <div class="contact-text">
-                        <h3>個人網站</h3>
-                        <p><a href="https://tyyy2.github.io/" target="_blank">https://tyyy2.github.io/</a></p>
-                    </div>
-                </div>
-                <div class="contact-social">
-                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                </div>
-            </div> -->
-            <div class="contact-form">
-                <form>
-                    <div class="form-group">
-                        <input type="text" placeholder="姓名" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="電子郵件" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="主旨">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="留言內容" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">發送訊息</button>
-                </form>
             </div>
         </div>
     </section>
